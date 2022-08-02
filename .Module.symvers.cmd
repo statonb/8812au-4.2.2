@@ -1,0 +1,1 @@
+cmd_/mnt/COMMON001/usr/src/8812au-4.2.2/Module.symvers := sed 's/ko$$/o/' /mnt/COMMON001/usr/src/8812au-4.2.2/modules.order | scripts/mod/modpost -m    -o /mnt/COMMON001/usr/src/8812au-4.2.2/Module.symvers -e -i Module.symvers   -T -
